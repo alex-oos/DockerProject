@@ -45,5 +45,5 @@ ALTER USER 'root'@'%' IDENTIFIED WITH mysql_native_password BY '123456' ;
 
 ![image-20231009152203806](https://cdn.jsdelivr.net/gh/alex-oos/picture-bed/img/2023/image-20231009152203806.png)
 
-最好就可以愉快的使用mysql
+现在就可以愉快的使用mysql
 
