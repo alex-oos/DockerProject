@@ -60,17 +60,25 @@ docker build -t your-image-name .
 如果你还没有登录Docker Hub，需要先登录。在终端或命令提示符中运行以下命令：
 
 ```bash
-docker login
+docker login <username> -u <username> -p <password>
 ```
 
 然后输入你的Docker Hub用户名和密码。
 
-## 5. 上传镜像到Docker Hub
+## 5. 镜像添加标签
+
+将`your_username`替换为您的用户名，`your_repository`替换为您的仓库名称，`your_image`替换为您要推送的镜像名称：默认为latest 使用默认即可
+
+```
+docker tag your_image-name your_username/your_repository:your_tag
+```
+
+## 6. 上传镜像到Docker Hub
 
 使用以下命令将镜像推送到Docker Hub：
 
 ```bash
-docker push your-image-name
+docker push your_username/your_repository:your_tag
 ```
 
 将`your-image-name`替换为你之前设置的镜像名称。这将把镜像上传到Docker Hub。
