@@ -27,7 +27,7 @@ docker run --name my-mysql -d -p 3306:3306 my-mysql
 mysql -uroot -p 
 ```
 
-![image-20231009151321885](https://cdn.jsdelivr.net/gh/alex-oos/picture-bed/img/notbook/image-20231009151321885.png)
+![image-20231009151321885](https://cdn.jsdelivr.net/gh/alex-oos/picture-bed/img/notebook/image-20231009151321885.png)
 
 ```sql
 # 使用mysql 数据库
@@ -43,7 +43,7 @@ GRANT ALL PRIVILEGES ON *.* TO 'root'@'%'WITH GRANT OPTION;
 ALTER USER 'root'@'%' IDENTIFIED WITH mysql_native_password BY '123456' ;
 ```
 
-![image-20231009152203806](https://cdn.jsdelivr.net/gh/alex-oos/picture-bed/img/notbook/image-20231009152203806.png)
+![image-20231009152203806](https://cdn.jsdelivr.net/gh/alex-oos/picture-bed/img/notebook/image-20231009152203806.png)
 
 现在就可以愉快的使用mysql
 
